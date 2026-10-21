@@ -11,7 +11,7 @@
 	<groupId>com.notthebest</groupId>
 	<artifactId>secretsanta</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>secretsanta</name>
 	<description>Secret Santa Matchmaking</description>
 
@@ -33,11 +33,9 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
-                        <groupId>org.springframework.boot</groupId>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <scope>provided</scope>
-                </dependency>
-
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+        </dependency>
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
